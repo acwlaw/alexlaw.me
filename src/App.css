@@ -1,0 +1,28 @@
+.App {
+
+}
+
+#AppWrapper {
+  height: 100vh;
+}
+
+#ContentWrapper {
+  overflow: auto;
+  width: 100vh;
+  background-color: #f6be60;
+}
+
+.NavBar {
+  background-color: #f6be60;
+}
+
+#scroller {
+  background-color: #f6be60;
+  /*width: 100%;*/
+  /*float: right;*/
+  /*height: 100%;*/
+}
+
+html, body {
+  width: 100%;
+}
