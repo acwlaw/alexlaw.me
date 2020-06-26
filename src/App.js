@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import NavBar from "./components/navbar";
 import SideBar from "./components/sidebar";
+import About from "./pages/about";
+import Experience from "./pages/experience";
+import Projects from "./pages/projects";
+import Contact from "./pages/contact";
 
 class App extends Component {
   constructor() {
@@ -10,13 +14,15 @@ class App extends Component {
 
   render() {
     return (
-      <div id="AppWrapper">
+      <div>
         <NavBar />
         <div id="ContentWrapper">
           <SideBar />
           <div id="scroller">
-            {/*<a id="name">Alex</a>*/}
-            {/*<a id="name">Law.</a>*/}
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
           </div>
         </div>
       </div>

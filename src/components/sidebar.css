@@ -1,8 +1,8 @@
 .SideBar {
+  position: fixed;
   display: flex;
   width: 150px;
-  height: 100%;
-  float: left;
+  height: 100vh;
 }
 
 #logoColumn {

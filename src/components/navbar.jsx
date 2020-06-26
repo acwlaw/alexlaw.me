@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import "./navbar.css";
 
 class NavBar extends Component {
@@ -7,12 +8,46 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
-        <ul>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          About
+        </Link>
+        <Link
+          activeClass="active"
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          Experience
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          Projects
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+        >
+          Contact
+        </Link>
       </div>
     );
   }
