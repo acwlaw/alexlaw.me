@@ -15,7 +15,8 @@ class App extends Component {
         <div id="ContentWrapper">
           <SideBar />
           <div id="scroller">
-            <h1>scrossller</h1>
+            {/*<a id="name">Alex</a>*/}
+            {/*<a id="name">Law.</a>*/}
           </div>
         </div>
       </div>

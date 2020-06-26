@@ -15,6 +15,10 @@
   flex: 1;
 }
 
+#name {
+  font-family: Mermaid, serif;
+  font-size: 200px;
+}
 
 #scroller {
   background-color: #f6be60;
@@ -26,4 +30,19 @@
 html, body {
   width: 100%;
   height: 100%;
+}
+
+@font-face {
+  font-family: 'Mermaid';
+  src: local('Mermaid'), url(./fonts/Mermaid1001.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: local('SF-Pro-Display-Regular)'), url(./fonts/SF-Pro-Display-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: local('SF-Pro-Display)'), url(./fonts/SF-Pro-Display-Bold.otf) format('opentype');
 }
