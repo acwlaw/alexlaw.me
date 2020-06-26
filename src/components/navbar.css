@@ -8,18 +8,15 @@
   justify-content: flex-end;
 }
 
-.NavBar ul {
+.NavBar a {
   display: flex;
   list-style: none;
   align-items: center;
-}
-
-.NavBar ul li {
   padding: 0 35px;
-  display: inline;
   font-family: "SF Pro Display", serif;
   font-weight: bold;
   align-content: center;
 }
+
 
 
