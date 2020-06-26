@@ -1,0 +1,14 @@
+.about-section {
+  display: flex;
+  height: calc(100vh - 75px);
+  background-color: #f6be60;
+}
+
+#nameText {
+  font-family: Mermaid, serif;
+  font-size: 200px;
+  margin: 0 50px;
+  line-height: 1;
+  bottom: 35px;
+  position: absolute;
+}

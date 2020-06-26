@@ -9,13 +9,18 @@
 }
 
 .NavBar a {
+  margin-right: 75px;
   display: flex;
   list-style: none;
   align-items: center;
-  padding: 0 35px;
+  padding: 0 25px;
   font-family: "SF Pro Display", serif;
   font-weight: bold;
   align-content: center;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid #333;
 }
 
 

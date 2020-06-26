@@ -1,12 +1,6 @@
-#AppWrapper {
-  height: 100vh;
-  display: flex;
-  flex-flow: column;
-}
-
 #ContentWrapper {
+  margin-top: 75px;
   overflow: auto;
-  height: 100%;
   background-color: #f6be60;
   flex: 1;
 }
@@ -19,26 +13,20 @@
 #scroller {
   margin-left: 150px;
   width: 100%;
-  height: 100%;
-}
-
-.about-section {
-  height: 100vh;
-  background-color: darkolivegreen;
 }
 
 .experience-section {
-  height: 100vh;
+  height: calc(100vh - 75px);
   background-color: bisque;
 }
 
 .projects-section {
-  height: 100vh;
+  height: calc(100vh - 75px);
   background-color: slategrey;
 }
 
 .contact-section {
-  height: 100vh;
+  height: calc(100vh - 75px);
   background-color: lightcoral;
 }
 
