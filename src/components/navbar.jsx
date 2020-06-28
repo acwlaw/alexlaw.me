@@ -11,40 +11,40 @@ class NavBar extends Component {
         <Link
           activeClass="active"
           to="about"
-          spy={true}
-          smooth={true}
+          spy
+          smooth
           offset={-70}
-          duration= {500}
+          duration={500}
         >
           About
         </Link>
         <Link
           activeClass="active"
           to="experience"
-          spy={true}
-          smooth={true}
+          spy
+          smooth
           offset={-70}
-          duration= {500}
+          duration={500}
         >
           Experience
         </Link>
         <Link
           activeClass="active"
           to="projects"
-          spy={true}
-          smooth={true}
+          spy
+          smooth
           offset={-70}
-          duration= {500}
+          duration={500}
         >
           Projects
         </Link>
         <Link
           activeClass="active"
           to="contact"
-          spy={true}
-          smooth={true}
+          spy
+          smooth
           offset={-70}
-          duration= {500}
+          duration={500}
         >
           Contact
         </Link>
@@ -52,6 +52,5 @@ class NavBar extends Component {
     );
   }
 }
-
 
 export default NavBar;
