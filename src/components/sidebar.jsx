@@ -7,14 +7,14 @@ import "./sidebar.css";
 const SideBar = () => (
   <div className="SideBar">
     <div id="logoColumn">
-      <a id="logo" href="https://www.google.com">
-        <img src={email} alt="email" width="25" />
+      <a id="logo" href="mailto:alex.law96@gmail.com">
+        <img src={email} alt="email" width="40" />
       </a>
       <a id="logo" href="https://www.github.com/acwlaw">
-        <img src={github} alt="github" width="25" />
+        <img src={github} alt="github" width="40" />
       </a>
       <a id="logo" href="https://www.linkedin.com/in/alexcwlaw">
-        <img src={linkedin} alt="linkedin" width="25" />
+        <img src={linkedin} alt="linkedin" width="40" />
       </a>
     </div>
   </div>
