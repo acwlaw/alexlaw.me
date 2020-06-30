@@ -1,13 +1,48 @@
 .about-section {
   display: flex;
+  /*table-layout: fixed;*/
   height: calc(100vh - 75px);
+  width: 90%;
   background-color: #2F4858;
 }
 
 #nameColumn {
-  bottom: 55px;
+  flex-basis: 100%;
+}
+
+#name-components {
+  margin-left: 75px;
+  margin-bottom: 70px;
+}
+
+#infoColumn {
+  flex-basis: 100%;
+}
+
+#headshot {
+  text-align: center;
+  width: 100%;
+}
+
+#headshot-img {
+  max-height: 100%;
+  max-width: 100%;
   position: absolute;
-  margin: 0 150px;
+  /*bottom: 0;*/
+  /*left: 0;*/
+}
+
+#headshot-bg {
+  justify-content: center;
+}
+
+#info-description-wrapper {
+
+}
+
+#info-description {
+  text-align: center;
+  color: #E8DBC5;
 }
 
 #nameText {
