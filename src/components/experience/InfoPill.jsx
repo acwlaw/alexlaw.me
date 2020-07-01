@@ -1,10 +1,19 @@
 import React from 'react';
 import '../components.css';
+import PropTypes from 'prop-types';
 
-const InfoPill = () => (
+const InfoPill = ({ description }) => (
   <div id="info-pill">
-    <p id="info-pill-content">Apr - June 2020</p>
+    <p id="info-pill-content">{description}</p>
   </div>
 );
+
+InfoPill.defaultProps = {
+  description: '',
+};
+
+InfoPill.propTypes = {
+  description: PropTypes.string,
+};
 
 export default InfoPill;

@@ -8,5 +8,14 @@
   color: #E8DBC5;
   margin: 2px 10px;
   font-family: SF Pro Display Regular, serif;
-  
+}
+
+#timeline-marker {
+  background-color: #57886c;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border-color: #E8DBC5;
+  border-width: 2px;
+  border-style: solid;
 }
