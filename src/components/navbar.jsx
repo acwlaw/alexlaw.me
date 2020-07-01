@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
 import { Link } from 'react-scroll';
 import "./navbar.css";
 
 class NavBar extends Component {
   state = {};
+
+  componentDidMount() {
+    const { scrollSpy } = Scroll;
+    scrollSpy.update();
+  }
 
   render() {
     return (
@@ -13,7 +19,7 @@ class NavBar extends Component {
           to="about"
           spy
           smooth
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           About
@@ -23,7 +29,7 @@ class NavBar extends Component {
           to="experience"
           spy
           smooth
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           Experience
@@ -33,7 +39,7 @@ class NavBar extends Component {
           to="projects"
           spy
           smooth
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           Projects
@@ -43,7 +49,7 @@ class NavBar extends Component {
           to="contact"
           spy
           smooth
-          offset={-70}
+          offset={-75}
           duration={500}
         >
           Contact
