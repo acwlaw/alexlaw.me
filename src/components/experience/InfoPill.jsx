@@ -2,18 +2,18 @@ import React from 'react';
 import '../components.css';
 import PropTypes from 'prop-types';
 
-const InfoPill = ({ description }) => (
+const InfoPill = ({ value }) => (
   <div id="info-pill">
-    <p id="info-pill-content">{description}</p>
+    <p id="info-pill-content">{value}</p>
   </div>
 );
 
 InfoPill.defaultProps = {
-  description: '',
+  value: '',
 };
 
 InfoPill.propTypes = {
-  description: PropTypes.string,
+  value: PropTypes.string,
 };
 
 export default InfoPill;

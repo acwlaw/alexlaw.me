@@ -1,0 +1,37 @@
+#experience-entry-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  justify-content: center;
+}
+
+#experience-entry-logo {
+  max-width: 100px;
+}
+
+#experience-entry-text {
+  display: inline-block;
+  width: 400px;
+  margin: 0 100px;
+}
+
+#experience-title {
+  font-family: SF Pro Display Bold, serif;
+  font-size: 35px;
+  color: #E8DBC5;
+  line-height: 0.8;
+}
+
+#experience-description {
+  font-family: SF Pro Display Regular, serif;
+  font-size: 20px;
+  color: #E8DBC5;
+  line-height: 0.8;
+}
+
+#experience-location {
+  font-family: SF Pro Display Regular, serif;
+  font-size: 20px;
+  color: #E8DBC5;
+  line-height: 0.8;
+}

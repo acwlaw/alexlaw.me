@@ -17,7 +17,8 @@
 
 .experience-section {
   height: calc(100vh - 75px);
-  background-color: #2F4858;
+  /*background-color: #2F4858;*/
+  background-color: dimgrey;
 }
 
 .projects-section {
