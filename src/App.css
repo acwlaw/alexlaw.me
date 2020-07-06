@@ -12,13 +12,15 @@
 
 #scroller {
   margin-left: 175px;
-  width: 100%;
+  width: calc(100% - 175px);
 }
 
 .experience-section {
   height: calc(100vh - 75px);
-  /*background-color: #2F4858;*/
-  background-color: dimgrey;
+  background-color: #2F4858;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projects-section {
