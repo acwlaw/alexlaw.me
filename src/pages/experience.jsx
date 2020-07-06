@@ -11,7 +11,7 @@ class Experience extends Component {
           <ExperienceEntry
             logo="amazon"
             title="Amazon"
-            location="Vancouver, BC"
+            location="📍 Vancouver, BC"
             description="Software Development Engineer"
             period="Aug 2020 - Present"
           />
@@ -19,14 +19,14 @@ class Experience extends Component {
             logo="apple"
             logoRequiresPadding
             title="Apple"
-            location="Cupertino, CA"
+            location="📍 Cupertino, CA"
             description="Software Engineer Intern"
             period="May 2019 - Aug 2019"
           />
           <ExperienceEntry
             logo="bench"
             title="Bench Accounting"
-            location="Vancouver, BC"
+            location="📍 Vancouver, BC"
             description="Software Engineer Intern"
             period="Jan 2019 - Apr 2019"
           />
@@ -34,7 +34,7 @@ class Experience extends Component {
             logo="rbc"
             logoRequiresPadding
             title="Royal Bank of Canada"
-            location="Toronto, ON"
+            location="📍 Toronto, ON"
             description="iOS Developer Co-op"
             period="Sept 2018 - Dec 2018"
           />
@@ -42,7 +42,7 @@ class Experience extends Component {
             logo="floka"
             logoRequiresPadding
             title="Flöka"
-            location="Vancouver, BC"
+            location="📍 Vancouver, BC"
             description="Software Engineer Intern"
             period="Apr 2018 - Aug 2018"
           />

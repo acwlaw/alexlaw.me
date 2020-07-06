@@ -1,7 +1,7 @@
 #experience-entry-wrapper {
   display: flex;
   align-items: center;
-  margin: 25px 0;
+  margin: 35px 0;
 }
 
 #experience-entry-logo {
@@ -10,13 +10,13 @@
 
 #experience-entry-text {
   display: inline-block;
-  width: 400px;
+  width: 350px;
   margin: 0 100px;
 }
 
 #experience-title {
   font-family: SF Pro Display Bold, serif;
-  font-size: 35px;
+  font-size: 30px;
   color: #E8DBC5;
   line-height: 0.8;
 }
