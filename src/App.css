@@ -10,6 +10,7 @@
   font-size: 200px;
 }
 
+/* TODO: center this, add sidebar as absolute pos */
 #scroller {
   margin-left: 175px;
   width: calc(100% - 175px);

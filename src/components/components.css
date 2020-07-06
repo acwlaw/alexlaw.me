@@ -11,8 +11,13 @@
   font-size: 20px;
 }
 
+#timeline-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 65px;
+}
+
 #timeline-marker {
-  display: inline-block;
   background-color: #57886c;
   width: 30px;
   height: 30px;
@@ -20,5 +25,10 @@
   border-color: #E8DBC5;
   border-width: 2px;
   border-style: solid;
-  margin: 0 100px;
+}
+
+#timeline-separator {
+  border-left: 2px solid;
+  height: 66px;
+  margin-left: 14px;
 }

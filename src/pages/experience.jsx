@@ -9,6 +9,7 @@ class Experience extends Component {
       <div className="experience-section" id="experience">
         <div>
           <ExperienceEntry
+            top
             logo="amazon"
             title="Amazon"
             location="📍 Vancouver, BC"
@@ -39,6 +40,7 @@ class Experience extends Component {
             period="Sept 2018 - Dec 2018"
           />
           <ExperienceEntry
+            bottom
             logo="floka"
             logoRequiresPadding
             title="Flöka"
