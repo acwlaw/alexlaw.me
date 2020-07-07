@@ -5,7 +5,6 @@ import SideBar from "./components/sidebar";
 import About from "./pages/about";
 import Experience from "./pages/experience";
 import Projects from "./pages/projects";
-import Contact from "./pages/contact";
 
 class App extends Component {
   constructor() {
@@ -22,7 +21,6 @@ class App extends Component {
             <About />
             <Experience />
             <Projects />
-            <Contact />
           </div>
         </div>
       </div>

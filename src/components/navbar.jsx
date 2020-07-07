@@ -44,16 +44,6 @@ class NavBar extends Component {
         >
           Projects
         </Link>
-        <Link
-          activeClass="active"
-          to="contact"
-          spy
-          smooth
-          offset={-75}
-          duration={500}
-        >
-          Contact
-        </Link>
       </div>
     );
   }
