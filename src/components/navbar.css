@@ -7,6 +7,7 @@
   height: 75px;
   justify-content: flex-end;
   color: #E8DBC5;
+  z-index: 3;
 }
 
 .NavBar a {

@@ -1,21 +1,22 @@
 .about-section {
   display: flex;
-  /*table-layout: fixed;*/
   height: calc(100vh - 75px);
   width: 90%;
   background-color: #2F4858;
 }
 
-#nameColumn {
+#name-column {
+  display: flex;
   flex-basis: 100%;
 }
 
 #name-components {
-  margin-left: 75px;
+  align-self: flex-end;
+  margin-left: 150px;
   margin-bottom: 70px;
 }
 
-#infoColumn {
+#info-column {
   flex-basis: 100%;
 }
 
@@ -27,7 +28,7 @@
 #headshot-img {
   max-height: 100%;
   max-width: 100%;
-  position: absolute;
+  /*position: absolute;*/
   /*bottom: 0;*/
   /*left: 0;*/
 }
@@ -46,7 +47,7 @@
   margin: 0 145px;
 }
 
-#nameText {
+#name-text {
   font-family: Mermaid, serif;
   font-size: 225px;
   margin: 0;
@@ -54,7 +55,7 @@
   color: #E8DBC5;
 }
 
-#subtitleText {
+#subtitle-text {
   font-family: SF Pro Display Bold, serif;
   color: #E8DBC5;
   font-size: 45px;
