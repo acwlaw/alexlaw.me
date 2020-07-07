@@ -17,34 +17,43 @@
 }
 
 #info-column {
+  display: flex;
   flex-basis: 100%;
+}
+
+#info-components {
+  align-self: center;
+  margin-left: 100px;
 }
 
 #headshot {
   text-align: center;
   width: 100%;
+  padding-left: 25px;
 }
 
 #headshot-img {
-  max-height: 100%;
-  max-width: 100%;
-  /*position: absolute;*/
-  /*bottom: 0;*/
-  /*left: 0;*/
+  width: 525px;
+  position: absolute;
+  padding-right: 100px;
+  padding-top: 25px;
 }
 
 #headshot-bg {
   justify-content: center;
+  padding-left: 20px;
 }
 
 #info-description-wrapper {
-
+  margin: 30px 0;
 }
 
 #info-description {
   text-align: center;
+  font-family: SF Pro Display, serif;
+  font-size: 20px;
   color: #E8DBC5;
-  margin: 0 145px;
+  margin: 0 50px;
 }
 
 #name-text {
