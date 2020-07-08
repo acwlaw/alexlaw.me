@@ -24,6 +24,8 @@
 #project-highlight-line {
   border-left: 6px solid #57886c;
   height: 175px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #project-img {
