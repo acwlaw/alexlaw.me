@@ -1,19 +1,35 @@
 {
   "files": {
-    "main.js": "/personal-site/static/js/main.2063bf3a.chunk.js",
-    "main.js.map": "/personal-site/static/js/main.2063bf3a.chunk.js.map",
-    "runtime-main.js": "/personal-site/static/js/runtime-main.399b384f.js",
-    "runtime-main.js.map": "/personal-site/static/js/runtime-main.399b384f.js.map",
-    "static/js/2.8439c639.chunk.js": "/personal-site/static/js/2.8439c639.chunk.js",
-    "static/js/2.8439c639.chunk.js.map": "/personal-site/static/js/2.8439c639.chunk.js.map",
-    "index.html": "/personal-site/index.html",
-    "precache-manifest.d53bbd7e793238f0fcbd6436dbeeb5c3.js": "/personal-site/precache-manifest.d53bbd7e793238f0fcbd6436dbeeb5c3.js",
-    "service-worker.js": "/personal-site/service-worker.js",
-    "static/js/2.8439c639.chunk.js.LICENSE.txt": "/personal-site/static/js/2.8439c639.chunk.js.LICENSE.txt"
+    "main.css": "/alexlaw.me/static/css/main.9733676e.chunk.css",
+    "main.js": "/alexlaw.me/static/js/main.7b6c4771.chunk.js",
+    "main.js.map": "/alexlaw.me/static/js/main.7b6c4771.chunk.js.map",
+    "runtime-main.js": "/alexlaw.me/static/js/runtime-main.4e9fd1cb.js",
+    "runtime-main.js.map": "/alexlaw.me/static/js/runtime-main.4e9fd1cb.js.map",
+    "static/css/2.dcba42a9.chunk.css": "/alexlaw.me/static/css/2.dcba42a9.chunk.css",
+    "static/js/2.808c188c.chunk.js": "/alexlaw.me/static/js/2.808c188c.chunk.js",
+    "static/js/2.808c188c.chunk.js.map": "/alexlaw.me/static/js/2.808c188c.chunk.js.map",
+    "index.html": "/alexlaw.me/index.html",
+    "precache-manifest.6d06f5114177410c598860a04abe8a3a.js": "/alexlaw.me/precache-manifest.6d06f5114177410c598860a04abe8a3a.js",
+    "service-worker.js": "/alexlaw.me/service-worker.js",
+    "static/css/2.dcba42a9.chunk.css.map": "/alexlaw.me/static/css/2.dcba42a9.chunk.css.map",
+    "static/css/main.9733676e.chunk.css.map": "/alexlaw.me/static/css/main.9733676e.chunk.css.map",
+    "static/js/2.808c188c.chunk.js.LICENSE.txt": "/alexlaw.me/static/js/2.808c188c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/alexlaw.me/static/media/SF-Pro-Display-Regular.5810cdf5.otf",
+    "static/media/abode.png": "/alexlaw.me/static/media/abode.f9d6302c.png",
+    "static/media/amazon.png": "/alexlaw.me/static/media/amazon.ef81cd43.png",
+    "static/media/bench.png": "/alexlaw.me/static/media/bench.13457c9d.png",
+    "static/media/checkmates.png": "/alexlaw.me/static/media/checkmates.59908649.png",
+    "static/media/floka.png": "/alexlaw.me/static/media/floka.ace595b5.png",
+    "static/media/headshot.png": "/alexlaw.me/static/media/headshot.855c6377.png",
+    "static/media/personalsite.png": "/alexlaw.me/static/media/personalsite.dd2634c7.png",
+    "static/media/rbc.png": "/alexlaw.me/static/media/rbc.5baeb89e.png",
+    "static/media/statsonsight.png": "/alexlaw.me/static/media/statsonsight.3726fe09.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.399b384f.js",
-    "static/js/2.8439c639.chunk.js",
-    "static/js/main.2063bf3a.chunk.js"
+    "static/js/runtime-main.4e9fd1cb.js",
+    "static/css/2.dcba42a9.chunk.css",
+    "static/js/2.808c188c.chunk.js",
+    "static/css/main.9733676e.chunk.css",
+    "static/js/main.7b6c4771.chunk.js"
   ]
 }
