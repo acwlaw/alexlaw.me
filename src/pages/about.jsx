@@ -41,8 +41,8 @@ class About extends Component {
                 Computer Science and Microbiology & Immunology grad from the University of British Columbia. Currently a software development engineer at Amazon in Vancouver.
                 <br />
                 <br />
-                <pre style={{ fontSize: '30px' }}>🏒    🏂    🏔    🛹</pre>
               </p>
+              <pre style={{ fontSize: '30px', textAlign: 'center' }}>🏒    🏂    🏔    🛹</pre>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ InfoPill.defaultProps = {
 
 InfoPill.propTypes = {
   value: PropTypes.string,
-  style: PropTypes.objectOf(PropTypes.object),
+  style: PropTypes.objectOf(PropTypes.string),
 };
 
 export default InfoPill;

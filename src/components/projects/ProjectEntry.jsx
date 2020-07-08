@@ -5,7 +5,9 @@ import PropTypes from 'prop-types';
 import InfoPill from "../InfoPill";
 import arrow from '../../assets/diagonal-arrow.png';
 
-const ProjectEntry = ({ icon, title, description, link, technologies }) => (
+const ProjectEntry = ({
+  icon, title, description, link, technologies,
+}) => (
   <div id="project-entry-wrapper">
     <div id="project-highlight-line" />
     <img
@@ -19,7 +21,7 @@ const ProjectEntry = ({ icon, title, description, link, technologies }) => (
         {link !== null && <img src={arrow} alt="arrow" style={{ width: "20px", margin: "0px 15px" }} />}
       </a>
       <p id="project-description">{description}</p>
-      {technologies.map((technology) => <InfoPill value={technology} style={{ marginRight: "10px" }} />)}
+      {technologies.map((technology) => <InfoPill value={technology} key={technology} style={{ marginRight: "10px" }} />)}
     </div>
   </div>
 );
