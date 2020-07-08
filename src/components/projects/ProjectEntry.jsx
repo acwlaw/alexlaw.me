@@ -3,8 +3,9 @@ import '../components.css';
 import '../../pages/projects.css';
 import PropTypes from 'prop-types';
 import InfoPill from "../InfoPill";
+import arrow from '../../assets/diagonal-arrow.png';
 
-const ProjectEntry = ({ icon, title, description }) => (
+const ProjectEntry = ({ icon, title, description, link }) => (
   <div id="project-entry-wrapper">
     <div id="project-highlight-line" />
     <img
@@ -13,7 +14,10 @@ const ProjectEntry = ({ icon, title, description }) => (
       alt={icon}
     />
     <div id="project-description-wrapper">
-      <p id="project-title">{title}</p>
+      <a id="project-title" href={link}>
+        {title}
+        {link !== null && <img src={arrow} alt="arrow" style={{ width: "20px", margin: "0px 15px" }} />}
+      </a>
       <p id="project-description">{description}</p>
       <InfoPill value="test" />
     </div>

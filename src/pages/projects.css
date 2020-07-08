@@ -38,14 +38,14 @@
   font-family: SF Pro Display Bold, serif;
   font-size: 30px;
   color: #E8DBC5;
-  line-height: 0.8;
+  line-height: 1.5;
 }
 
 #project-description {
   font-family: SF Pro Display Regular, serif;
   font-size: 20px;
   color: #E8DBC5;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 #project-description-wrapper {
