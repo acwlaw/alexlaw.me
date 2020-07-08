@@ -3,7 +3,7 @@ import '../components.css';
 import '../../pages/experience.css';
 import PropTypes from 'prop-types';
 import TimelineMarker from "./TimelineMarker";
-import InfoPill from "./InfoPill";
+import InfoPill from "../InfoPill";
 
 const ExperienceEntry = ({
   top, bottom, logo, logoRequiresPadding, title, description, location, period,

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components.css';
+import './components.css';
 import PropTypes from 'prop-types';
 
 const InfoPill = ({ value }) => (

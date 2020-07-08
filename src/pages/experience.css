@@ -1,3 +1,11 @@
+.experience-section {
+  height: calc(100vh - 75px);
+  background-color: #2F4858;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #experience-entry-wrapper {
   display: flex;
   align-items: center;

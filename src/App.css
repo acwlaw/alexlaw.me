@@ -16,24 +16,6 @@
   width: calc(100% - 175px);
 }
 
-.experience-section {
-  height: calc(100vh - 75px);
-  background-color: #2F4858;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.projects-section {
-  height: calc(100vh - 75px);
-  background-color: slategrey;
-}
-
-.contact-section {
-  height: calc(100vh - 75px);
-  background-color: lightcoral;
-}
-
 html, body {
   width: 100%;
   height: 100%;

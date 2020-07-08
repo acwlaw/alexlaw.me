@@ -1,0 +1,51 @@
+.projects-section {
+  height: calc(100vh - 75px);
+  background-color: #2F4858;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-entry-wrapper {
+  display: flex;
+  margin: 50px 20px;
+}
+
+#project-highlight-line {
+  border-left: 6px solid #57886c;
+  height: 175px;
+}
+
+#project-img {
+  width: 175px;
+  border-color: transparent;
+  border-radius: 40px;
+  box-shadow: 0 8px 10px #333333;
+  margin: 0 25px;
+}
+
+#project-title {
+  font-family: SF Pro Display Bold, serif;
+  font-size: 30px;
+  color: #E8DBC5;
+  line-height: 0.8;
+}
+
+#project-description {
+  font-family: SF Pro Display Regular, serif;
+  font-size: 20px;
+  color: #E8DBC5;
+  line-height: 1;
+}
+
+#project-description-wrapper {
+  width: 500px;
+}
