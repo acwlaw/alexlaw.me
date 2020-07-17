@@ -33,7 +33,7 @@ class Projects extends Component {
             icon="personalsite"
             title="alexlaw.me"
             description="Personal portfolio website."
-            link="alexlaw.me"
+            link="https://alexlaw.me"
             technologies={["React", "CSS"]}
           />
         </div>
