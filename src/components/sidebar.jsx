@@ -10,10 +10,10 @@ const SideBar = () => (
       <a id="logo" href="mailto:alex.law96@gmail.com">
         <img src={email} alt="email" width="40" />
       </a>
-      <a id="logo" href="https://www.github.com/acwlaw">
+      <a id="logo" href="https://www.github.com/acwlaw" target="_blank" rel="noreferrer">
         <img src={github} alt="github" width="40" />
       </a>
-      <a id="logo" href="https://www.linkedin.com/in/alexcwlaw">
+      <a id="logo" href="https://www.linkedin.com/in/alexcwlaw" target="_blank" rel="noreferrer">
         <img src={linkedin} alt="linkedin" width="40" />
       </a>
     </div>
