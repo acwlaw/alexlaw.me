@@ -16,7 +16,7 @@ const ProjectEntry = ({
       alt={icon}
     />
     <div id="project-description-wrapper">
-      <a id="project-title" href={link} target="_blank" rel="noreferrer">
+      <a id="project-title" href={link} target="_blank" rel="noopener noreferrer">
         {title}
         {link !== null && <img src={arrow} alt="arrow" style={{ width: "20px", margin: "0px 15px" }} />}
       </a>
