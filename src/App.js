@@ -15,7 +15,7 @@ class App extends Component {
 
   render() {
     return (
-      <div id="AppWrapper">
+      <div id="AppWrapper" style={{ userSelect: "none" }}>
         <NavBar />
         <div id="ContentWrapper">
           <SideBar />
