@@ -29,14 +29,11 @@
 #headshot {
   text-align: center;
   width: 100%;
-  padding-left: 25px;
+  padding-left: 50px;
 }
 
 #headshot-img {
-  width: 525px;
-  position: absolute;
-  padding-right: 100px;
-  padding-top: 25px;
+  width: 500px;
 }
 
 #headshot-bg {

@@ -30,10 +30,6 @@ class About extends Component {
           <div id="info-components">
             <div id="headshot">
               <img id="headshot-img" src={headshot} alt="headshot" width="500" />
-              <svg width="500" height="414" viewBox="0 0 500 414" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M414.474 207C414.474 321.323 321.691 414 207.237 414C92.7831 414 0 321.323 0 207C0 92.6771 92.7831 0 207.237 0C321.691 0 414.474 92.6771 414.474 207Z" fill="#E8DBC5" />
-                <path d="M500 54.2143C500 84.156 475.7 108.429 445.724 108.429C415.748 108.429 391.447 84.156 391.447 54.2143C391.447 24.2726 415.748 0 445.724 0C475.7 0 500 24.2726 500 54.2143Z" fill="#885053" />
-              </svg>
             </div>
             <div id="info-description-wrapper">
               <p id="info-description">
