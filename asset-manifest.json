@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.979346bc.chunk.css",
-    "main.js": "/static/js/main.ebcb1253.chunk.js",
-    "main.js.map": "/static/js/main.ebcb1253.chunk.js.map",
+    "main.css": "/static/css/main.487a7d4b.chunk.css",
+    "main.js": "/static/js/main.8dd49c95.chunk.js",
+    "main.js.map": "/static/js/main.8dd49c95.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0128b0c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.0128b0c7.js.map",
     "static/css/2.dcba42a9.chunk.css": "/static/css/2.dcba42a9.chunk.css",
     "static/js/2.808c188c.chunk.js": "/static/js/2.808c188c.chunk.js",
     "static/js/2.808c188c.chunk.js.map": "/static/js/2.808c188c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.365c73aa2e181ee0cde1a6e44fc84b5c.js": "/precache-manifest.365c73aa2e181ee0cde1a6e44fc84b5c.js",
+    "precache-manifest.7cb3ecf4041955928ea7264728d65ce3.js": "/precache-manifest.7cb3ecf4041955928ea7264728d65ce3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.dcba42a9.chunk.css.map": "/static/css/2.dcba42a9.chunk.css.map",
-    "static/css/main.979346bc.chunk.css.map": "/static/css/main.979346bc.chunk.css.map",
+    "static/css/main.487a7d4b.chunk.css.map": "/static/css/main.487a7d4b.chunk.css.map",
     "static/js/2.808c188c.chunk.js.LICENSE.txt": "/static/js/2.808c188c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/SF-Pro-Display-Regular.5810cdf5.otf",
     "static/media/abode.png": "/static/media/abode.f9d6302c.png",
@@ -20,7 +20,7 @@
     "static/media/bench.png": "/static/media/bench.13457c9d.png",
     "static/media/checkmates.png": "/static/media/checkmates.59908649.png",
     "static/media/floka.png": "/static/media/floka.ace595b5.png",
-    "static/media/headshot.png": "/static/media/headshot.855c6377.png",
+    "static/media/headshot.png": "/static/media/headshot.eccf72a9.png",
     "static/media/personalsite.png": "/static/media/personalsite.dd2634c7.png",
     "static/media/rbc.png": "/static/media/rbc.5baeb89e.png",
     "static/media/statsonsight.png": "/static/media/statsonsight.3726fe09.png"
@@ -29,7 +29,7 @@
     "static/js/runtime-main.0128b0c7.js",
     "static/css/2.dcba42a9.chunk.css",
     "static/js/2.808c188c.chunk.js",
-    "static/css/main.979346bc.chunk.css",
-    "static/js/main.ebcb1253.chunk.js"
+    "static/css/main.487a7d4b.chunk.css",
+    "static/js/main.8dd49c95.chunk.js"
   ]
 }
