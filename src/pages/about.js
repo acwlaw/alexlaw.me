@@ -103,6 +103,8 @@ const About = () => {
     });
 
   useEffect(() => {
+    document.title = "About — Alex Law";
+
     requestSpotifyToken()
       .then((response) => response.json())
       .then((data) => {

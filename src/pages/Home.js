@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -21,6 +21,10 @@ const Home = () => {
       }
     }
   `);
+
+  useEffect(() => {
+    document.title = "Alex Law";
+  }, []);
 
   const TextAreaValue = () => (
     <Col>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -21,6 +21,10 @@ const Projects = () => {
       }
     }
   `);
+
+  useEffect(() => {
+    document.title = "Projects — Alex Law";
+  }, []);
 
   const renderProjectItem = (project) => (
     <div className="project-item" key={project.name}>
